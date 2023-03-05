@@ -57,6 +57,7 @@ let s:pluginKeyBindings['easymotion/vim-easymotion'] = {
 let s:pluginKeyBindings['kien/ctrlp.vim'] = {
   \ 'nnoremap': {
     \ 'ff': ':Telescope find_files<CR>',
+    \ 'fg': ':Telescope git_files<CR>',
     \ 'fr': ':CtrlPMRU<CR>',
     \ 'pf': ':CtrlPRoot<CR>',
   \ },
